@@ -26,7 +26,7 @@ Quindi:
 - Visualizzazione di dettaglio della squadra del giocatore
 - Gestione errori API
 
-Dovrà essere utilizzato il framework React/Redux 
+Dovrà essere utilizzato il framework React/Redux utilizzando Typescript.
 
 #### Sottomissione
 Il lavoro deve essere caricato su un repository GitHub publico.
