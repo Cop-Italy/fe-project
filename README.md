@@ -13,8 +13,8 @@ Va utilizzata l'API gratuita: https://www.balldontlie.io/
 
 Endpoint per completare il progetto:
 
-Api giocatori:  https://www.balldontlie.io
-Foto del giocatore: https://nba-players.herokuapp.com/players/{last_name}/{first_name} (dovrai gestire il caso non trovato)
+- Api Dati giocatore:  https://www.balldontlie.io
+- Foto del giocatore: https://nba-players.herokuapp.com/players/{last_name}/{first_name}
 
 #### Funzionalità richieste:
 
@@ -24,6 +24,7 @@ Quindi:
 - Ricerca giocatore per Nome e Cognome
 - Visualizzazione di dettaglio del giocatore con immagine
 - Visualizzazione di dettaglio della squadra del giocatore
+- Gestione errori API
 
 Dovrà essere utilizzato il framework React/Redux 
 
