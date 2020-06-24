@@ -37,7 +37,7 @@ Il nostro obiettivo è trovare le risposte a queste domande:
 
 - Conosci React e il suo ecosistema?
 - Puoi disegnare interfacce chiare e facili da usare?
-- Domina il tuo ambiente di lavoro?
+- Conosci il tuo ambiente di lavoro?
 - Il tuo codice può essere pulito, leggibile ed efficace?
 
 #### Plus
