@@ -4,7 +4,7 @@
 ### Valutazione per la posizione di frontend
 Uno dei compiti principali per uno sviluppatore di frontend è quello di creare interfacce utili per visualizzare, cercare e interagire con i dati e con le API.
 
-Per questa valutazione non è importante avere una grande interfaccia utente in termini di design, ma dobbiamo avere un'interfaccia coerente, funzionante e funzionale che consenta agli utenti di lavorare visualizzare i dati delle API
+Per questa valutazione non è importante avere una grande interfaccia utente in termini di design, ma avere un'interfaccia coerente, funzionante e funzionale che consenta agli utenti di lavorare visualizzare i dati delle API.
 
 #### Introduzione
 Per questo compito, ciò che costruirai è un'applicazione a pagina singola con React/Redux per interrogare un set di dati di giocatori NBA e le loro statistiche.
