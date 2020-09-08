@@ -1,0 +1,64 @@
+{
+  "name": "nba-search",
+  "version": "0.1.0",
+  "description": "A simple exercise to experiment with React AND typescript.",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "tailwindcss": "^1.8.5",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "commit": "npx git-cz",
+    "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.output.css",
+    "prestart": "npm run build:tailwind",
+    "prebuild": "npm run build:tailwind",
+    "start": "react-scripts start",
+    "build": "NODE_ENV=production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "old_lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
+    "old_format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'",
+    "old_isready": "npm run format && npm run lint && npm run build",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-typescript-prettier": "^3.1.0",
+    "prettier": "^2.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
